@@ -1,0 +1,409 @@
+body {
+    background: url('gym-background-1vfxu206kqpygj3p.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(15, 15, 15);
+
+}
+
+.left {
+    display: inline-block;
+    width: 6%;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.left img {
+    width: 40px;
+    filter: invert(100%);
+    padding: 0px 20px;
+
+
+}
+
+.left div {
+    font-size: 11px;
+    text-align: center;
+    line-height: 3px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0px 2px;
+    padding: 4px 14px;
+    border: 1px solid grey;
+    border-radius: 14px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(77, 74, 74);
+
+}
+
+.container {
+    text-align: center;
+    margin: 450px auto 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container span {
+    color: rgb(255, 102, 0);
+}
+
+.cont {
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 40px;
+    width: 70%;
+
+}
+
+.cont a {
+    border: 1px solid rgb(255, 102, 0);
+    background-color: rgb(255, 102, 0);
+    color: white;
+    text-decoration: none;
+    padding: 2px 6px;
+    font-size: 20px;
+}
+
+.cont2 {
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.container2 {
+
+    display: inline-block;
+
+}
+
+.equp {
+    display: inline-block;
+    width: 16%;
+    margin: 60px;
+    position: relative;
+    left: 35px;
+    border-radius: 15px;
+}
+
+.equp img {
+    width: 100px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 200px;
+    padding: 15px 15px;
+    margin: 11px 40px;
+    filter: invert(100%);
+    background-color: rgb(245, 244, 238);
+}
+
+.equp:hover {
+    filter: invert(0%);
+    background-color: rgb(255, 102, 0);
+    color: black;
+}
+
+.equp h3,
+p {
+    text-align: center;
+}
+
+.health {
+    display: inline-block;
+    width: 16%;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.health img {
+    width: 100px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 200px;
+    padding: 15px 15px;
+    margin: 11px 40px;
+    filter: invert(100%);
+    background-color: rgb(245, 244, 238);
+}
+
+.health:hover {
+    filter: invert(0%);
+    background-color: rgb(255, 102, 0);
+    color: black;
+}
+
+.health h3,
+p {
+    text-align: center;
+}
+
+.diet {
+    display: inline-block;
+    width: 16%;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.diet img {
+    width: 100px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 200px;
+    padding: 15px 15px;
+    margin: 11px 40px;
+    filter: invert(100%);
+    background-color: rgb(245, 244, 238);
+}
+
+.diet:hover {
+    filter: invert(0%);
+    background-color: rgb(255, 102, 0);
+    color: black;
+}
+
+.diet h3,
+p {
+    text-align: center;
+}
+
+.training {
+    display: inline-block;
+    width: 16%;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.training img {
+    width: 100px;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 200px;
+    padding: 15px 15px;
+    margin: 11px 40px;
+    filter: invert(100%);
+    background-color: rgb(245, 244, 238);
+}
+
+.training:hover {
+    filter: invert(0%);
+    background-color: rgb(255, 102, 0);
+    color: black;
+}
+
+.training h3,
+p {
+    text-align: center;
+}
+
+.off {
+    text-align: center;
+    background-image: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+
+}
+
+.offers {
+    display: inline-block;
+    border: 0px solid rgb(255, 255, 255);
+    margin: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    text-align: center;
+    color: black;
+    filter: grayscale(100%);
+
+}
+
+.offers h2,
+.offers2 h2 {
+    line-height: 5px;
+    color: rgb(255, 102, 0);
+}
+
+.offers2 {
+    display: inline-block;
+    border: 0px solid rgb(255, 255, 255);
+    margin: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    text-align: center;
+    color: black;
+    filter: grayscale(100%);
+
+}
+
+.offers:hover,
+.offers2:hover {
+    background-color: rgb(48, 48, 42);
+    color: rgb(255, 255, 255);
+    border: 0px solid rgb(48, 48, 42);
+    filter: grayscale(0%);
+}
+
+/* .footcontainer {
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.footcontainer a {
+    border: 2px solid black;
+    border-radius: 40%;
+    background-color: white;
+    padding: 45px 28px 27px 28px;
+}
+footer {
+    background-color: white;
+    box-sizing: border-box;
+}
+.footcontainer a i {
+    font-size: 3em;
+} */
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 120px;
+    width: 97%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 102, 0);
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(14, 13, 13, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background: #1877F2;
+    color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background: #1DA1F2;
+    color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #fff;
+}
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+    background: #0aa10a;
+    color: #fff;
+}
